@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+	</head>
+	<body class="chats-body">
+		<div class="header__wrapper">
+			<header class="header">
+				<div class="header__header-column">
+					<a href="chats.html" class="header__back-btn">
+						<i class="fas fa-arrow-left">
+						</i>
+					</a>
+					<h1 class="header__title">CuteDog</h1>	
+				</div>
+				<div class="header__header-column">
+					<span class="header__icon">
+						<i class="fas fa-search"></i>
+					</span>
+					<span class="header__icon">
+						<i class="fas fa-align-justify"></i>
+					</span>
+				</div>
+			</header>
+		</div>
+		<main class="chat-screen">
+			<ul class="chat__messages">
+				<span class="chat__timestamp">――――――――――――――――   2019.12.16   ――――――――――――――――</span>
+				<li class="incoming-message message">
+					<img src="image/omok.png" class="message__avatar">
+					<div class="message__content">
+						<span class="message__auther">CuteDog</span>
+						<span class="message__bubble">I love you</span>
+						<span class="message__time">오후 1:22</span>		
+					</div>
+				</li>
+				<li class="sent-message message">
+					<div class="message__content">
+						<span class="message__time">오후 1:24</span>
+						<span class="message__bubble">I love you too</span>
+					</div>
+				</li>
+				<li class="incoming-message message">
+					<img src="image/omok.png" class="message__avatar">
+					<div class="message__content">
+						<span class="message__auther">CuteDog</span>
+						<span class="message__bubble">See you!</span>
+						<span class="message__time">오후 1:26</span>
+					</div>
+				</li>
+				<li class="sent-message message">
+					<div class="message__content">
+						<span class="message__time">오후 1:24</span>
+						<span class="message__bubble">I love you too</span>
+					</div>
+				</li>
+			</ul>
+		</main>
+		<div class="chat__write--container">
+			<div class="chat__icon-left chat__icon">
+				<i class="far fa-plus-square"></i>
+			</div>
+			<textarea class="chat__write"></textarea>
+			<div class="chat__icon-right chat__icon">
+				<input type="button" value="send">
+			</div>
+		</div>
+		<div class="bigScreen">
+			<span class="bigScreen__text">Please make your screen small!</span>
+		</div>
+	</body>
+</html>

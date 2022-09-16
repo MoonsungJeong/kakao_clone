@@ -1,0 +1,36 @@
+.friend__add-body {
+	width: 300px;
+	height: 350px;
+	border: 1px solid #403222;
+}
+.smallbox .header {
+	padding:10px;
+	color:#EEEEEE;
+	background-color:#403222;
+}
+.friend__add-body .header__title {
+	font-size:1rem;
+	padding-left: 90px;
+}
+.friend__add-body .header i {
+	cursor: pointer;
+}
+
+.friend__add {
+	display: flex;
+	justify-content:space-around;
+	
+}
+.friend__add .search-bar {
+	border-radius: 25px;
+	border: 1px solid #cccccc;
+	background-color:#eeeeee;
+	margin-left:10px;
+	padding-top:7px;
+	padding-bottom:5px;
+	padding-left: 10px;
+	width:80%;
+}
+.friend_add__icon {
+	margin:5px 5px;
+}

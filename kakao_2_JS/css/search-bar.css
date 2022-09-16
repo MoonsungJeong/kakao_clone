@@ -1,0 +1,18 @@
+.search-bar {
+	border-radius: 25px;
+	border: 1px solid #cccccc;
+	background-color:#eeeeee;
+	margin-bottom:15px;
+	padding-top:7px;
+	padding-bottom:5px;
+	padding-left: 10px;
+}
+.search-bar .fa-search {
+	color: #aaaaaa;
+}
+.search-bar .search__text {
+	border:none;
+	background:transparent;
+	outline:none;
+	width: 90%;
+}

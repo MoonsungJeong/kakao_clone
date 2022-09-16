@@ -1,0 +1,564 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta id="viewport" name="viewport" content ="width=device-width" />
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+	</head>
+	<body>
+		<div class="container">
+			<nav class="nav nav_tab">
+				<ul class="nav__list">
+					<li class="nav__list-item">
+						<a class="nav__list-link friends">
+							<i class="fas fa-user">
+							</i>
+						</a>
+					</li>
+					<li class="nav__list-item">
+						<a class="nav__list-link chats">
+							<i class="far fa-comment">
+							</i>
+						</a>
+					</li>
+					<li class="nav__list-item">
+						<a class="nav__list-link more">
+							<i class="fas fa-ellipsis-h">
+							</i>
+						</a>
+					</li>
+					<li class="nav__list-item">
+						<a class="nav__list-link">
+							<i class="fas fa-bars">
+							</i>
+						</a>
+					</li>
+					<li class="nav__list-item">
+						<a class="nav__list-link">
+							<i class="fas fa-bell">
+							</i>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="items friends_tab">
+				<header class="header">
+					<div class="header__header-column">
+						<h1 class="header__title">Friends</h1>
+					</div>
+					<div class="header__header-column">
+						<span class="header__icon friend__add smallbox_btn">
+							<i class="fas fa-user-plus">
+							</i>
+						</span>
+					</div>
+				</header>
+				<div class="search-bar">
+					<i class="fas fa-search"></i>
+					<input type="text" class="search__text" placeholder="search name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'search name'">
+				</div>
+				<main class="friends">
+					<header class="friends__header">
+						<a class="profile__link">
+							<div class="friends__friend friend">
+								<div class="friend__column">
+									<img src="image/omok.png" class="friend__avatar g__avator">
+									<div class="friend__content">
+										<span class="friend__name">Blackcat</span>
+										<span class="friend__status">I love Dog</span>
+									</div>
+								</div>	
+							</div>
+						</a>
+					</header>
+					<ul class="friends__list">
+						<h5 class="friends__title">Friends 3</h5>
+						<li class="friends__friend friend profile__link">
+							<div class="friend__column">
+								<img src="image/omok.png" class="friend__avatar">
+								<div class="friend__content">
+									<span class="friend__name">CuteDog</span>
+									<span class="friend__status">I love You</span>
+								</div>
+							</div>
+							<div class="friend__column">
+								<div class="friend__now-listening">
+									<span>
+										The Three bears
+									</span>
+									<a>
+										<i class="fas fa-play"></i>
+									</a>
+								</div>
+							</div>
+						</li>
+						
+						<li class="friends__friend friend profile__link">
+							<div class="friend__column">
+								<img src="image/omok.png" class="friend__avatar">
+								<div class="friend__content">
+									<span class="friend__name">Snowman</span>
+									<span class="friend__status">Im nice man</span>
+								</div>
+							</div>
+							<div class="friend__column">
+								<div class="friend__now-listening">
+									<span>
+										What you do - Chrisett...
+									</span>
+									<a>
+										<i class="fas fa-play"></i>
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="friends__friend friend profile__link">
+							<div class="friend__column">
+								<img src="image/omok.png" class="friend__avatar">
+								<div class="friend__content">
+									<span class="friend__name">Kangaroo</span>
+									<span class="friend__status">Meow!~~</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</main>
+			</div>
+			<div class="items chats_tab">
+				<header class="header">
+					<div class="header__header-column">
+						<h1 class="header__title">Chats</h1>
+					</div>
+					<div class="header__header-column">
+						<span class="header__icon newchat smallbox_btn">
+							<i class="fas fa-comment-medical">
+							</i>
+						</span>
+					</div>
+				</header>
+				<div class="search-bar">
+					<i class="fas fa-search"></i>
+					<input type="text" class="search__text" placeholder="search member or chat room" onfocus="this.placeholder = ''" onblur="this.placeholder = 'search member or chat room'">
+				</div>
+				<main class="chats">
+					<ul class="chats__list">
+						<li class="chats__chat chat chat__link">
+							<div class="chat__chat friend">
+								<div class="friend__column">
+									<img src="image/omok.png" class="friend__avatar">
+									<div class="friend__content">
+										<span class="friend__name">CuteDog</span>
+										<span class="friend_bottom-text">I love you</span>
+									</div>
+								</div>
+								<div class="friend__column">
+									<div class="friend__alarm">
+										<span class="chat__timestamp">2019-12-16</span>
+										<div class="chat__num-empty">&nbsp;</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="chats__chat chat chat__link">
+							<div class="chat__chat friend">
+								<div class="friend__column">
+									<img src="image/omok.png" class="friend__avatar">
+									<div class="friend__content">
+										<span class="friend__name">Kangaroo</span>
+										<span class="friend_bottom-text">Meow Meow!~~</span>
+									</div>
+								</div>
+								<div class="friend__column">
+									<div class="friend__alarm">
+										<span class="chat__timestamp">2019-12-30</span>
+										<div class="chat__num">10</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="chats__chat chat chat__link">
+							<div class="chat__chat friend">
+								<div class="friend__column">
+									<img src="image/omok.png" class="friend__avatar">
+									<div class="friend__content">
+										<span class="friend__name">Snowman</span>
+										<span class="friend_bottom-text">Miss you!~</span>
+									</div>
+								</div>
+								<div class="friend__column">
+									<div class="friend__alarm">
+										<span class="chat__timestamp">2020-10-12</span>
+										<div class="chat__num">1</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</main>
+			</div>
+			<div class="items more_tab">
+				<header class="header">
+					<div class="header__header-column">
+						<h1 class="header__title">More</h1>
+					</div>
+				</header>
+				<main class="more">
+					<header class="more__header">
+						<div class="more__more friend">
+							<div class="friend__column">
+								<img src="image/omok.png" class="friend__avatar g__avator">
+								<div class="friend__content">
+									<span class="friend__name">Blackcat</span>
+									<span class="friend__email">bk123@gmail.com</span>
+								</div>
+							</div>
+						</div>
+					</header>
+					<ul class="more__list">
+						<li class="more__more menu">
+							<div class="menu__column news smallbox_btn">
+								<i class="fas fa-newspaper"></i>
+								<div class="menu__content">
+									<span class="menu__list">News</span>
+								</div>
+							</div>
+						</li>
+						<li class="more__more menu">
+							<div class="menu__column">
+								<i class="fas fa-quote-right"></i>
+								<div class="menu__content">
+									<span class="menu__list">My story</span>
+								</div>
+							</div>
+						</li>
+						<li class="more__more menu">
+							<div class="menu__column">
+								<i class="fas fa-comments"></i>
+								<div class="menu__content">
+									<span class="menu__list">Open chat</span>
+								</div>
+							</div>
+						</li>
+						<li class="more__more menu">
+							<div class="menu__column">
+								<i class="fas fa-inbox"></i>
+								<div class="menu__content">
+									<span class="menu__list">File box</span>
+								</div>
+							</div>
+						</li>
+						<li class="more__more menu">
+							<div class="menu__column">
+								<i class="fas fa-cog"></i>
+								<div class="menu__content">
+									<span class="menu__list">Setting</span>
+								</div>
+							</div>
+						</li>
+						<li class="more__more menu">
+							<div class="menu__column">
+								<i class="fas fa-bullhorn"></i>
+								<div class="menu__content">
+									<span class="menu__list">Notice</span>
+								</div>
+							</div>
+						</li>
+						<li class="more__more menu">
+							<div class="menu__column">
+								<i class="fas fa-question-circle"></i>
+								<div class="menu__content">
+									<span class="menu__list">Help</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</main>
+			</div>
+		</div>
+<!------------------------------------------------------------------------------------------------------------------------------------>
+		<div class="chats-body chat_tab">
+			<div class="header__wrapper">
+				<header class="header">
+					<div class="header__header-column">
+						<a class="header__back-btn">
+							<i class="fas fa-arrow-left">
+							</i>
+						</a>
+						<h1 class="header__title">CuteDog</h1>	
+					</div>
+					<div class="header__header-column">
+						<span class="header__icon">
+							<i class="fas fa-search"></i>
+						</span>
+						<span class="header__icon">
+							<i class="fas fa-align-justify"></i>
+						</span>
+					</div>
+				</header>
+			</div>
+			<main class="chat-screen">
+				<ul class="chat__messages">
+					<span class="chat__timestamp">――――――――――――――――   2019.12.16   ――――――――――――――――</span>
+					<li class="incoming-message message">
+						<img src="image/omok.png" class="message__avatar">
+						<div class="message__content">
+							<span class="message__auther">CuteDog</span>
+							<span class="message__bubble">I love you</span>
+							<span class="message__time">오후 1:22</span>		
+						</div>
+					</li>
+					<li class="sent-message message">
+						<div class="message__content">
+							<span class="message__time">오후 1:24</span>
+							<span class="message__bubble">I love you too</span>
+						</div>
+					</li>
+					<li class="incoming-message message">
+						<img src="image/omok.png" class="message__avatar">
+						<div class="message__content">
+							<span class="message__auther">CuteDog</span>
+							<span class="message__bubble">See you!</span>
+							<span class="message__time">오후 1:26</span>
+						</div>
+					</li>
+					<li class="sent-message message">
+						<div class="message__content">
+							<span class="message__time">오후 1:24</span>
+							<span class="message__bubble">I love you too</span>
+						</div>
+					</li>
+				</ul>
+			</main>
+			<div class="chat__write--container">
+				<div class="chat__icon-left chat__icon">
+					<i class="far fa-plus-square"></i>
+				</div>
+				<textarea class="chat__write"></textarea>
+				<div class="chat__icon-right chat__icon">
+					<input type="button" value="send">
+				</div>
+			</div>	
+		</div>
+		<div class="profile profile_tab">
+			<header class="header">
+				<div class="header__header-column">
+					<span class="header__icon">
+						<i class="far fa-star"></i>
+					</span>
+				</div>
+				
+				<div class="header__header-column">
+					<a class="header__x-btn">
+						<i class="far fa-times-circle"></i>
+					</a>
+				</div>
+			</header>
+			<main class="profile__body">
+				<div class="profile__wrapper">
+					<div class="profile__box">
+						<img src="image/omok.png" class="friend__avatar p__avatar">
+						<div class="profile__content">
+							<span class="profile__name">
+								Blackcat
+							</span>
+							<span class="profile__icon">
+								<i class="fas fa-pen">	
+								</i>
+							</span>
+							<span class="profile__message">I'm developer</span>
+						</div>
+					</div>
+				</div>
+			</main>
+			<div class="profile__function">
+				<div class="profile__function-content profile__content-chat">
+					<i class="fas fa-comment">
+					</i>
+					<span class="function__text">
+						chat
+					</span>
+				</div>
+				<div class="profile__function-content">
+					<i class="fas fa-phone">
+					</i>
+					<span class="function__text">
+						calling
+					</span>
+				</div>
+				<div class="profile__function-content">
+					<i class="fas fa-quote-right">
+					</i>
+					<span class="function__text">
+						story
+					</span>
+				</div>
+			</div>
+		</div>		
+<!------------------------------------------------------------------------------------------------------------------------------------>
+		<div class="add_overlay"></div>
+		<div class="friend__add-body smallbox">
+			<header class="header">
+				<div class="header__header-column">
+					<h1 class="header__title">Friend Add</h1>
+				</div>
+				<div class="header__header-column friend__add smallbox_back-btn">
+					<i class="far fa-times-circle"></i>
+				</div>
+			</header>
+			<main class="friend__add">
+				<div class="search-bar">
+					<i class="fas fa-search"></i>
+					<input type="text" class="search__text" placeholder="friend ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'friend ID'">
+				</div>
+				<span class="friend_add__icon">
+					<input type="button" value="Add">
+				</span>
+			</main>
+		</div>
+		<div class="newchat-body smallbox">
+			<header class="header">
+				<div class="header__header-column">
+					<h1 class="header__title">Choose Friends</h1>
+				</div>
+				<div class="header__header-column newchat smallbox_back-btn">
+					<i class="far fa-times-circle"></i>
+				</div>
+			</header>
+			<main>
+				<div class="newchat">
+					<div class="newchat__left">
+						<div class="newchat__search-bar">
+							<div class="search-bar">
+								<i class="fas fa-search"></i>
+								<input type="text" class="search__text" placeholder="search friend" onfocus="this.placeholder = ''" onblur="this.placeholder = 'search friend'">
+							</div>
+						</div>
+						<ul class="friends__list">
+							<h5 class="friends__title">Friends 3</h5>
+							<li class="friends__friend friend">
+								<div class="friend__column">
+									<img src="image/omok.png" class="friend__avatar">
+									<div class="friend__content">
+										<span class="friend__name">CuteDog</span>
+									</div>
+								</div>	
+								<div class="friend__column">
+									<div class="friend__check">
+										<i class="far fa-circle"></i>
+									</div>
+								</div>
+							</li>
+							<li class="friends__friend friend">
+								<div class="friend__column">
+									<img src="image/omok.png" class="friend__avatar">
+									<div class="friend__content">
+										<span class="friend__name">Snowman</span>
+									</div>
+								</div>
+								<div class="friend__column">
+									<div class="friend__check">
+										<i class="far fa-circle"></i>
+									</div>
+								</div>
+							</li>
+							<li class="friends__friend friend">
+								<div class="friend__column">
+									<img src="image/omok.png" class="friend__avatar">
+									<div class="friend__content">
+										<span class="friend__name">Kangaroo</span>
+									</div>
+								</div>
+								<div class="friend__column">
+									<div class="friend__check">
+										<i class="far fa-circle"></i>
+									</div>
+								</div>
+							</li>
+							
+							<li class="friends__friend friend">
+								<div class="friend__column">
+									<img src="image/omok.png" class="friend__avatar">
+									<div class="friend__content">
+										<span class="friend__name">Pig</span>
+									</div>
+								</div>
+								<div class="friend__column">
+									<div class="friend__check">
+										<i class="far fa-circle"></i>
+									</div>
+								</div>
+							</li>
+							<li class="friends__friend friend">
+								<div class="friend__column">
+									<img src="image/omok.png" class="friend__avatar">
+									<div class="friend__content">
+										<span class="friend__name">Tiger</span>
+									</div>
+								</div>
+								<div class="friend__column">
+									<div class="friend__check">
+										<i class="far fa-circle"></i>
+									</div>
+								</div>
+							</li>
+							<li class="friends__friend friend">
+								<div class="friend__column">
+									<img src="image/omok.png" class="friend__avatar">
+									<div class="friend__content">
+										<span class="friend__name">Bird</span>
+									</div>
+								</div>
+								<div class="friend__column">
+									<div class="friend__check">
+										<i class="far fa-circle"></i>
+									</div>
+								</div>
+							</li>		
+						</ul>
+					</div>
+					<div class="newchat__right">
+						<ul>
+							<li class="friends__friend friend">
+								<div class="friend__column">
+									<img src="image/omok.png" class="friend__avatar nc_avatar">
+									<div class="friend__content">
+										<span class="friend__name">Pig</span>
+									</div>
+									<span>
+										<i class="far fa-times-circle"></i>
+									</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</main>
+			<div class="newchat__container">
+				<input type="button" value="확인" class="newchat__icon" />
+				<input type="button" value="취소" class="newchat__icon" />
+			</div>
+		</div>
+		<div class="news-body smallbox">
+			<header class="header">
+				<div class="header__header-column">
+					<h1 class="header__title">NEWS</h1>
+				</div>
+				<div class="header__header-column news smallbox_back-btn">
+					<i class="far fa-times-circle"></i>
+				</div>
+			</header>
+			<main>
+				<div class="notice">
+					<span class="notice__notice">
+						Made by Moonsung
+					</span>
+				</div>
+			</main>
+		</div>
+		<div class="bigScreen">
+			<span class="bigScreen__text">Please make your screen small!</span>
+		</div>
+		<script src="lib/script.js" type="module"></script>
+		<script src="./script.js"></script>
+	</body>
+</html>

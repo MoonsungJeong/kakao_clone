@@ -1,0 +1,60 @@
+.newchat-body {
+	width: 350px;
+	height: 500px;
+	border: 2px solid #403222;
+}
+.newchat-body .header__title {
+	padding-left: 90px;
+}
+.newchat-body .header i {
+	cursor: pointer;
+}
+.newchat {
+	display:flex;
+}
+.newchat__left {
+	width: 250px;
+	margin-top: -15px;
+	padding-top:10px;
+	border-right: 1px solid #CCCCCC;
+}
+.newchat__left .newchat__search-bar {
+	border-bottom: 1px solid #CCCCCC;
+}
+.newchat__left .friends__list {
+	height:340px;
+	margin-bottom:-40px;
+	overflow:auto;
+	overflow-x:hidden;
+	padding: 0px 5px;
+	border-right: 1px solid #CCCCCC;
+}
+.newchat__right {
+	padding-left: 10px;
+}
+.newchat__right .friend {
+	background-color:#44ccff;
+	border-radius: 25px;
+	padding: 0px;
+	border:2px solid #44ccff;
+}
+.newchat__right i{
+	margin:0px 5px;
+}
+.newchat__right .nc_avatar {
+	width:30px;
+	margin-right: 0px;
+}
+.newchat__container {
+	position:relative;
+	top: 40px;
+  	left: 0;
+  	right: 0;
+	display:flex;
+	justify-content:center;
+	padding: 5px;
+	border-top: 1px solid #CCCCCC;
+}
+.newchat__icon {
+	margin: 10px;
+}

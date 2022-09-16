@@ -1,0 +1,11 @@
+.news-body {
+	width: 300px;
+	height: 350px;
+	border: 1px solid #403222;
+}
+.news-body .header i {
+	cursor: pointer;
+}
+.notice {
+	text-align:center;
+}

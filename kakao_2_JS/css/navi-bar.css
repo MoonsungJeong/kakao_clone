@@ -1,0 +1,24 @@
+.nav {
+	position:fixed;
+	background-color:#eeeeee;
+	width: 65px;
+	height: 100vh;
+	border: 1px solid #cccccc;
+}
+.nav .nav__list {
+	display:flex;
+	flex-direction:column;
+	text-align : center;
+}
+.nav a {
+	color: #333333;
+}
+.nav .nav__list-item {
+	margin-top: 30px;
+}
+.nav .nav__list-item:nth-last-child(2) {
+	margin-top: calc(50vh - 100px);
+}
+.nav i { 
+	font-size: 25px;
+}

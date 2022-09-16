@@ -1,0 +1,69 @@
+.profile {
+	background-color:#999999;
+	background-image: url("../image/kakao_background_5.jpg");	
+	background-repeat:no-repeat;
+	background-size: cover;
+	min-height: 100%;
+}
+
+.profile .header {
+	padding: 30px 0px;
+}
+.profile .header__icon {
+	color: #FFFFFF;
+}
+
+.profile__body {
+}
+.profile__wrapper{
+	min-height:70vh;
+	display:flex;
+	justify-content:center;
+}
+.profile__box{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	color:#FFFFFF;
+}
+
+.profile__box .p__avatar {
+	width:80px;
+	border-radius:38%;
+}
+.profile__box .profile__message {
+	display: block;
+	text-align:center;
+}
+.profile__name, .profile__icon, .profile__message {
+	margin-top:5px;
+}
+.profile__message {
+	font-size:14px;
+}
+
+.profile__function {
+	position:fixed;
+	bottom: 20px;
+  	left: 0;
+  	right: 0;
+	display:flex;
+	justify-content:space-around;
+	border-top: 1px solid #CCCCCC;
+	padding-top:40px;
+}
+.profile__function-content {
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+}
+.profile__function-content i {
+	font-size:30px;
+	color:#ffffff;
+}
+.profile__function .function__text {
+	margin-top:10px;
+	font-size:14px;
+	color: #ffffff;
+}

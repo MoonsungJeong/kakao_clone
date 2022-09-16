@@ -1,0 +1,26 @@
+@import "reset.css";
+@import "navi-bar.css";
+@import "mobile.css";
+@import "header.css";
+@import "search-bar.css";
+@import "chat.css";
+@import "friend.css";
+@import "more.css";
+@import "front.css";
+@import "profile.css";
+
+.container {
+	display: flex;
+	
+}
+.items{
+	width:100%;
+	margin-left: 65px;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.save{
+	border: 5px solid blue;
+	border: 5px solid green;
+}

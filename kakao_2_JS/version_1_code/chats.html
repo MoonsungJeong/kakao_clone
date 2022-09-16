@@ -1,0 +1,127 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+	</head>
+	<body>
+		<div class="container">
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__list-item">
+						<a href="friends.html" class="nav__list-link">
+							<i class="far fa-user">
+							</i>
+						</a>
+					</li>
+					<li class="nav__list-item">
+						<a href="chats.html" class="nav__list-link">
+							<i class="fas fa-comment">
+							</i>
+						</a>
+					</li>
+					<li class="nav__list-item">
+						<a href="more.html" class="nav__list-link">
+							<i class="fas fa-ellipsis-h">
+							</i>
+						</a>
+					</li>
+					<li class="nav__list-item">
+						<a class="nav__list-link">
+							<i class="fas fa-bars">
+							</i>
+						</a>
+					</li>
+					<li class="nav__list-item">
+						<a class="nav__list-link">
+							<i class="fas fa-bell">
+							</i>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="items">
+				<header class="header">
+					<div class="header__header-column">
+						<h1 class="header__title">Chats</h1>
+					</div>
+					<div class="header__header-column">
+						<span class="header__icon">
+							<i class="fas fa-comment-medical">
+							</i>
+						</span>
+					</div>
+				</header>
+				<div class="search-bar">
+					<i class="fas fa-search"></i>
+					<input type="text" class="search__text" placeholder="search member or chat room" onfocus="this.placeholder = ''" onblur="this.placeholder = 'search member or chat room'">
+				</div>
+				<main class="chats">
+					<ul class="chats__list">
+						<li class="chats__chat chat">
+							<a href="chat.html">
+								<div class="chat__chat friend">
+									<div class="friend__column">
+										<img src="image/omok.png" class="friend__avatar">
+										<div class="friend__content">
+											<span class="friend__name">CuteDog</span>
+											<span class="friend_bottom-text">I love you</span>
+										</div>
+									</div>
+									<div class="friend__column">
+										<div class="friend__alarm">
+											<span class="chat__timestamp">2019-12-16</span>
+											<div class="chat__num-empty">&nbsp;</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="chats__chat chat">
+							<a href="chat_omok.html" style="text-decoration: none">
+								<div class="chat__chat friend">
+									<div class="friend__column">
+										<img src="image/omok.png" class="friend__avatar">
+										<div class="friend__content">
+											<span class="friend__name">Kangaroo</span>
+											<span class="friend_bottom-text">Meow Meow!~~</span>
+										</div>
+									</div>
+									<div class="friend__column">
+										<div class="friend__alarm">
+											<span class="chat__timestamp">2019-12-30</span>
+											<div class="chat__num">10</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="chats__chat chat">
+							<a href="chat_jinsung.html">
+								<div class="chat__chat friend">
+									<div class="friend__column">
+										<img src="image/omok.png" class="friend__avatar">
+										<div class="friend__content">
+											<span class="friend__name">Snowman</span>
+											<span class="friend_bottom-text">Miss you!~</span>
+										</div>
+									</div>
+									<div class="friend__column">
+										<div class="friend__alarm">
+											<span class="chat__timestamp">2020-10-12</span>
+											<div class="chat__num">1</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</main>
+			</div>
+			
+		</div>		
+		<div class="bigScreen">
+				<span class="bigScreen__text">Please make your screen small!</span>
+		</div>
+	</body>
+</html>

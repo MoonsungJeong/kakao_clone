@@ -1,0 +1,22 @@
+Kakao Clone version 2
+
+
+Update
+
+Javascript is added.
+
+Files are united to one file(main.html) and controled by Javascript.
+
+Javascript control CSS "display" to change screen
+
+
+There are 2 type of "script.js" files.
+
+One is in lib folder.
+
+The other one is in origin folder.
+
+"lib/sciprt.js" is made with "module.js". but it doesn't work without server.
+
+so i made "./script.js" without "module.js" and it works without server.
+
